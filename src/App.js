@@ -1,3 +1,6 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable jsx-a11y/alt-text */
 import logo from './logo.svg';
 import './App.css';
 
@@ -216,6 +219,21 @@ function App() {
               </button>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+    {/* background attachment end */}
+
+    {/* Gallary start */}
+    <div className='container-fluid pt-5'>
+      <h1 className='text-center display-4'><b>Gallery</b></h1>
+      <p className='text-center'>Peek Into Our World</p>
+    </div>
+
+    <div className='container'>
+      <div className='row'>
+        <div className='col-md-3'>
+          <img src='img/slide1-free-img.jpg' className=''/>
         </div>
       </div>
     </div>
