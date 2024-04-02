@@ -3,22 +3,25 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div style={{ backgroundImage: "URL(public/img/hero-section-banner.jpg)", height: "700px", width: "100%",background:"gray"}}>
+        <center>
+          <img src='img/mount-inn-logo.png' style={{padding: "30px 0px"}}/>
+        </center>
+
+
+
+
+      </div>
+
+
+
+
+
+
+
+
+    </>
   );
 }
 
