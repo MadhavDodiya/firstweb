@@ -48,6 +48,15 @@
 .btn1{padding: 15px 35px;background: #ffba00;border: none;border-radius: 10px;font-size: 18px;color: white;}
 .btn1:hover{padding: 15px 35px;background: #ffd014;border: none;border-radius: 10px;font-size: 18px;color: black;transition: 0.5s;}
 
+.btn2{padding: 10px 30px;background: #ffba00;border: none;border-radius: 10px;font-size: 20px;color: white;}
+.btn2:hover{padding: 10px 30px;background: #ffd014;border: none;border-radius: 10px;font-size: 20px;color: black;transition: 0.5s;}
+
+.btn3{padding: 10px 35px;background: #ffba00;border: none;border-radius: 10px;font-size: 20px;color: white;}
+.btn3:hover{padding: 10px 35px;background: #ffd014;border: none;border-radius: 10px;font-size: 20px;color: black;transition: 0.5s;}
+
+.btn4{background: #ffc62bd8;color: white;border: none;padding: 10px 15px;}
+.btn4:hover{background: #ffd014;color: white;border: none;}
+
 /* img */
 .img1{background-image: url('../public/img/double-room-free-img.jpg');background-position: center;background-size: cover;}
 .img2{background-image: url('../public/img/toileteries-free-img.jpg');background-position: center;background-size: cover;}
