@@ -209,7 +209,7 @@ function App() {
         <div className='container'>
           <div className='row'>
             <div className='col-md-8'>
-              <h1 className='clrw display-5 pt-5 '>Escape To The Luxury This Summer</h1>
+              <h1 className='clrw display-5 pt-5'>Escape To The Luxury This Summer</h1>
               <p className='clrw fs-5 pt-3'>Habeo nemore appellantur eu usu, usu putant adolescens consequuntur ei, mel tempor consulatu voluptaria te. Et dicunt qualisque vel, eam ubique mucius docendi ne. Debet decore repudiare id mei, homero iuvaret fastidii ius in, no mei alienum accusata.</p>
             </div>
             <div className='col-md-4 p-5'>
@@ -230,13 +230,61 @@ function App() {
       <p className='text-center'>Peek Into Our World</p>
     </div>
 
-    <div className='container'>
+    <div className='container pt-5 pb-5'>
       <div className='row'>
         <div className='col-md-3'>
-          <img src='img/slide1-free-img.jpg' className=''/>
+          <img src='img/slide1-free-img.jpg' className='rounded-3' style={{height: "250px",width:"100%"}}/>
+        </div>
+
+        <div className='col-md-3'>
+          <img src='img/slide2-free-img.jpg' className='rounded-3' style={{height: "250px",width:"100%"}}/>
+        </div>
+
+        <div className='col-md-3'>
+          <img src='img/slide3-free-img.jpg' className='rounded-3' style={{height: "250px",width:"100%"}}/>
+        </div>
+
+        <div className='col-md-3'>
+          <img src='img/slide5-free-img.jpg' className='rounded-3' style={{height: "250px",width:"100%"}}/>
         </div>
       </div>
     </div>
+    {/* Gallary end */}
+
+    {/* Package start */}
+    <div className='container-fluid pt-5 pb-5'>
+      <h1 className='text-center display-4'><b>Package</b></h1>
+      <p className='text-center'>Choice Of Rooms</p>
+    </div>
+
+    <div className='container-fluid mt-5'>
+      <div className='container'>
+        <div className='row'>
+          <div className='col-md-6 bg-warning'>
+            <div className='row'>
+              <div className='col-md-12 bg-danger'>
+                <div className='row'>
+                <div className='col-md-6 bg-success p-0'>
+                  <img src='img/hotel-single-room.jpg' className='img-fluid'/>
+                  <div className="container-fluid p-2" style={{background: "#11202a"}}>
+                    <span className='clrw'>$ 125 / Night</span>
+                  </div>
+                </div>
+                <div className='col-md-6 bg-primary'>
+                  <div className='container p-3'>
+                    <h1 className='p-2'>Single Room</h1>
+                    <h4 className='p-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
 
 
